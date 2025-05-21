@@ -1,5 +1,8 @@
 # FCEP (FuCube Ethernet Protocol) 协议设计文档
-
+### ~~技术能力不足，本项目暂时停更~~
+### 技术文档还是可以看看的，万一可以实现呢？
+### 本项目允许任何人修改
+### 现有的python文件是一个简单的收发示例
 ## 一、协议基本信息
 
 - **协议名称**：FCEP (FuCube Ethernet Protocol)
@@ -10,7 +13,6 @@
   - AES-128-CFB
   - AES-256-CBC
   - AES-256-CFB
-  - *WebSocket*（仅 TCP 可用）
 - **功能**：
   - **伪造报头**：
     - **UDP**：可选类型为 `none`、`ftp`、`rdp`、`mcpe`、`dns`、`smtp`
